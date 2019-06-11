@@ -58,12 +58,12 @@ module.exports.connections = {
   ***************************************************************************/
   mongodbServer: {
     adapter: 'sails-mongo',
-    host: 'localhost',
+    host: 'ds021969.mlab.com',
     //     host: 'mongodb', for docker implementation
-    port: 27017,
+    port: 21969,
     // user: 'username',
     // password: 'password',
-    database: 'ymple'
+    database: 'heroku_lbkrp96z'
   },
 
   /***************************************************************************
